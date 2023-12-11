@@ -1095,24 +1095,24 @@ if (reversed == null) { reversed = false; }
 
 	// award 23
 	this.instance_4 = new lib.award2023();
-	this.instance_4.setTransform(150,103.25,0.8,0.8,0,0,0,0.3,0.3);
+	this.instance_4.setTransform(394.2,105.4,0.8,0.8,0,0,0,0.3,0.4);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(65).to({_off:false},0).wait(28).to({regX:0.2,regY:0.2,scaleX:0.3868,scaleY:0.3868,x:60.1,y:150},10,cjs.Ease.quadInOut).wait(65));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(53).to({_off:false},0).to({x:150.1,y:104.25},12).wait(22).to({regY:0.3,x:150,y:103.25},0).to({regX:0.2,regY:0.2,scaleX:0.3868,scaleY:0.3868,x:60.1,y:150},18,cjs.Ease.quadInOut).wait(63));
 
 	// award 22
 	this.instance_5 = new lib.award2022();
-	this.instance_5.setTransform(150.1,104.25,0.8,0.8,0,0,0,0.3,0.4);
+	this.instance_5.setTransform(394.2,105.4,0.8,0.8,0,0,0,0.3,0.4);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(30).to({_off:false},0).wait(24).to({regX:0.5,regY:0.5,scaleX:0.3,scaleY:0.3,x:-35.3},10,cjs.Ease.quadIn).to({_off:true},1).wait(103));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(19).to({_off:false},0).to({x:150.1,y:104.25},12).wait(23).to({regX:0.5,regY:0.5,scaleX:0.3,scaleY:0.3,x:-35.3},20,cjs.Ease.quadIn).to({_off:true},1).wait(93));
 
 	// award 21
 	this.instance_6 = new lib.award2021();
 	this.instance_6.setTransform(150.1,103.3,0.8,0.8,0,0,0,0.4,0.4);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(1).to({_off:false},0).wait(18).to({regX:0.5,regY:0.5,scaleX:0.3,scaleY:0.3,x:-35.55},10,cjs.Ease.quadIn).to({_off:true},1).wait(138));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(1).to({_off:false},0).wait(19).to({regX:0.5,regY:0.5,scaleX:0.3,scaleY:0.3,x:-35.55},20,cjs.Ease.quadIn).to({_off:true},1).wait(127));
 
 	// provider-center
 	this.instance_7 = new lib.providercenter();

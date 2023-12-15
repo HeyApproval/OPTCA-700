@@ -1098,21 +1098,21 @@ if (reversed == null) { reversed = false; }
 	this.instance_4.setTransform(371.05,272,0.547,0.547,0,0,0,0.2,0.2);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(9).to({_off:false},0).to({x:229.95},12,cjs.Ease.quadOut).wait(52).to({regX:0.5,regY:0.4,scaleX:0.5465,scaleY:0.5465,x:230.1,y:272.2},0).to({regX:0.2,regY:0.2,scaleX:0.3868,scaleY:0.3868,x:60.1,y:184.05},17,cjs.Ease.sineInOut).wait(65));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(9).to({_off:false},0).to({regX:0.3,regY:0.3,scaleX:0.9572,scaleY:0.9572,x:150.1,y:387.85},12,cjs.Ease.quadOut).wait(52).to({regX:0.5,regY:0.4,scaleX:0.9564,scaleY:0.9564,x:150.3,y:388.15},0).to({regX:0.2,regY:0.2,scaleX:0.3868,scaleY:0.3868,x:60.1,y:184.05},17,cjs.Ease.sineInOut).wait(65));
 
 	// award 22
 	this.instance_5 = new lib.award2022();
 	this.instance_5.setTransform(358.7,272.1,0.465,0.465,0,0,0,0.5,0.5);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(7).to({_off:false},0).to({regX:0.6,x:134.35},12,cjs.Ease.quadOut).wait(56).to({regX:0.7,scaleX:0.4646,scaleY:0.4646,x:134.4,y:272.25},0).to({regX:0.2,regY:0.2,scaleX:0.3868,scaleY:0.3868,x:60.1,y:184.05},17,cjs.Ease.sineInOut).to({_off:true},1).wait(62));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(7).to({_off:false},0).to({regX:0.6,scaleX:0.5161,scaleY:0.5161,x:217.25,y:218.2},12,cjs.Ease.quadOut).wait(56).to({regX:0.7,scaleX:0.5157,scaleY:0.5157,x:217.3,y:218.4},0).to({regX:0.2,regY:0.2,scaleX:0.3868,scaleY:0.3868,x:60.1,y:184.05},17,cjs.Ease.sineInOut).to({_off:true},1).wait(62));
 
 	// award 21
 	this.instance_6 = new lib.award2021();
 	this.instance_6.setTransform(348.1,272,0.383,0.383,0,0,0,0.4,0.5);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(5).to({_off:false},0).to({regX:0.5,x:53.8},12,cjs.Ease.quadOut).wait(60).to({regX:0.8,regY:0.7,scaleX:0.3826,scaleY:0.3826,x:53.9,y:272.2},0).to({regX:0.4,regY:0.4,scaleX:0.271,scaleY:0.271,x:60.1,y:184.05},17,cjs.Ease.sineInOut).to({_off:true},1).wait(60));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(5).to({_off:false},0).to({regX:0.7,regY:0.6,scaleX:0.414,scaleY:0.414,x:99.25,y:191.2},12,cjs.Ease.quadOut).wait(60).to({regX:1,regY:0.8,scaleX:0.4135,scaleY:0.4135,x:99.35,y:191.5},0).to({regX:0.4,regY:0.4,scaleX:0.271,scaleY:0.271,x:60.1,y:184.05},17,cjs.Ease.sineInOut).to({_off:true},1).wait(60));
 
 	// provider-center
 	this.instance_7 = new lib.providercenter();
